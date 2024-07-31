@@ -347,7 +347,7 @@ function fetchBikes(){
                 handleJSONData(this);
             }
         };
-        xhttp.open("GET", "https://lab2test281-431117.oa.r.appspot.com/bikes", true);
+        xhttp.open("GET", "https://us-central1-crud96yc5z9g44.cloudfunctions.net/api/bikes", true);
         xhttp.send();
     
 
