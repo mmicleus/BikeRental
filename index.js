@@ -347,10 +347,8 @@ function fetchBikes(){
                 handleJSONData(this);
             }
         };
-        xhttp.open("GET", "https://us-central1-crud96yc5z9g44.cloudfunctions.net/api/bikes", true);
+        xhttp.open("GET", "localhost:3000/bikes", true);
         xhttp.send();
-    
-
 }
 
 
