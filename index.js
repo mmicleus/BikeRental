@@ -347,7 +347,7 @@ function fetchBikes(){
                 handleJSONData(this);
             }
         };
-        xhttp.open("GET", "localhost:3000/bikes", true);
+        xhttp.open("GET", "https://example-app2-ed067bfd710e.herokuapp.com/bikes", true);
         xhttp.send();
 }
 
